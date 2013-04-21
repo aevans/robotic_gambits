@@ -1,12 +1,11 @@
 
 Rulesets
 ========
-> 1 or more rules
-> drag and drop re-ordering via drag handle
-> on/off toggle with clear labeling
-> greyed-out or disabled appearance for rules toggled off
-> 
-> if (condition) then [action]
+- 1 or more rules
+- drag and drop re-ordering via drag handle
+- on/off toggle with clear labeling
+- greyed-out or disabled appearance for rules toggled off
+- [On/Off] IF (condition) THEN [action]
 
 
 Base Conditions
@@ -16,7 +15,7 @@ Base Conditions
 - `(value)` the action will be performed if the value can be considered `true` and the rule is turned `on`
 - `(a ? b)` compare `a` to `b` to determine if the condition is `true` or `false`
 - `a` and `b` can be numeric values or named items such as a specific sensor's current value
-- comparison operators `?` can be standard greater than, less than, and/or equal to, bitwise operations, or other methods that result in a `true` or `false` value
+- comparison operator `?` can be standard greater than, less than, and/or equal to, bitwise operations, or other methods that result in a `true` or `false` value
 - named items can refer to specific sensors, locally stored values, registry values, or - for the programmers - a memory location whose value is read and used
 - (`interrupt`) evaluates to `true` if a hardware interrupt has been triggered and not yet cleared
 
